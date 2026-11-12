@@ -1,0 +1,55 @@
+{
+  "name": "dsh-edgerunners",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cyberpunk anime companion pet for the DeepSeek Harness desktop app: four heroes on your screen reacting to the agent's work, SYS.MON system monitor, /persona and /report",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon.svg": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "hooks/**",
+    "assets/**",
+    "tools/**",
+    "locale/*.json",
+    "docs/**",
+    "cordis.patch.yml",
+    "icon.svg",
+    "CONTRACT.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    ".gitignore"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "pet",
+    "companion",
+    "anime",
+    "cyberpunk",
+    "desktop",
+    "windows"
+  ],
+  "author": "nikitakostyukweb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitakostyukweb/dsh_pet_cyberpunk.git"
+  },
+  "homepage": "https://github.com/nikitakostyukweb/dsh_pet_cyberpunk#readme",
+  "bugs": {
+    "url": "https://github.com/nikitakostyukweb/dsh_pet_cyberpunk/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

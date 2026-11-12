@@ -1,0 +1,15 @@
+- insert:
+    - id: edgerunners
+      name: 'dsh-edgerunners'
+      config:
+        launchPet: true
+        # сколько секунд активная сессия может молчать, прежде чем питомец переедет к работающей
+        activeSessionQuietSeconds: 30
+        # через сколько секунд работы страховочный «звонок о готовности» (если режиссёр уже не позвал)
+        completionCallAfterSeconds: 15
+        # Дневной счётчик трат на токены: баланс аккаунта (CNY/USD) → рубли и шкала в SYS.MON.
+        spendEnabled: true
+        spendSampleMinutes: 5
+        rubPerCny: 11.5
+        rubPerUsd: 90
+        dailyBudgetRub: 100

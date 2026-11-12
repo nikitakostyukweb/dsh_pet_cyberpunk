@@ -1,0 +1,23 @@
+# Runtime files written by the pet engine / plugin — never commit
+assets/pet/state.json
+assets/pet/choice.json
+assets/pet/settings.json
+assets/pet/pet.beat
+assets/pet/pet.beat.tmp
+assets/pet/pet-crash.log
+assets/pet/pet-crash.log.old
+assets/pet/spend.json
+assets/pet/dsh-meta.json
+assets/pet/*.request
+assets/pet/*.tmp
+
+# Generated previews / test output
+preview/
+*.preview.png
+
+# Node / Python / OS junk
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
